@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+
+    <!--  Screen Design for Game tab -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textView4"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView4"
+        android:textSize="45sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView2"
+        android:id="@+id/textView2"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+
+        android:textSize="25sp"
+        android:textIsSelectable="false"
+        android:textColor="#ff0b0a0b"
+        android:elegantTextHeight="false" />
+
+    <Switch
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:background="#ffe0e0e0"
+        android:checked="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView3"
+        android:id="@+id/textView3"
+        android:textSize="25sp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textColor="#ff0b0a0b" />
+
+    <Switch
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch2"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+
+
+        android:checked="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#ffe0e0e0" />
+
+<Button
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="25dp"
+    android:text="@string/Button"
+    android:textColor="#ff0b0a0b"
+    android:id="@+id/button1"
+    android:background="#ffe0e0e0" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadSms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkBox">Turn On Message Speaks</string>
+
+    <string name="TextView">Settings</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-0897519100196321/7382206836</string>
+
+
+    <string name="switch1">SMS</string>
+    <string name="textView2">Speak Sms</string>
+    <string name="textView3">Speak Contact Name</string>
+    <string name="switch2">Name</string>
+    <string name="textView4">Voice Control</string>
+    <string name="button">Quit</string>
+    <string name="TextView10">SMS inbox</string>
+    <string name="textView">Inbox</string>
+    <string name="Quit">Quit</string>
+    <string name="Button">Quit</string>
+    <string name="SMSREAD">SMS READ</string>
+    <string name="MadeByWeDevz">Made By WeDevz</string>
+    <string name="imageView">imageView</string>
+
+
+</resources>
